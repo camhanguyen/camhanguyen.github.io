@@ -170,43 +170,100 @@
             <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="publications">
                 <div class="w-100">
                     <h2 class="mb-5">Publications</h2>
+                    <p>A central question for my research is: <b>How can we design learning activities in STEM that are student-centered and equitable?</b></p>
+                    <p>I draw from the fields of learning sciences, learning analytics, and human-computer interactions to answer this question.</p>
+                    <p>(1) I partner with educators and community partners to design interface and computer-supported learning activities, and study design principles that facilitate educators' sensemaking of data about students' learning.</p>
+                    <p>(2) I experiment with ways to systematically process formative education data, using human-computation approaches.</p>
+                    <p>(3) I apply quantitative research methodologies, using quasi-experimental designs for generalized causal inference, process mining, and network analyses, to understand the impact of instructional interventions on different student populations.</p>
+
+                    <div id="myBtnContainer">
+                      <button class="btn active" onclick="filterSelection('all')"> Show All</button>
+                      <button class="btn" onclick="filterSelection('dataviz')"> Data Visualization &amp; Analytics</button>
+                      <button class="btn" onclick="filterSelection('humanComputation')"> Human-Computation Approaches</button>
+                      <button class="btn" onclick="filterSelection('coDesign')"> Co-Design</button>
+                      <button class="btn" onclick="filterSelection('formative')"> Computer-Supported Formative Assessments</button>
+                      <button class="btn" onclick="filterSelection('noticing')"> Teacher Noticing</button>
+                      <button class="btn" onclick="filterSelection('STEMSuccess')"> Student Success in STEM</button>
+                    </div>
+
+                    <br>
 
                     <div class="subheading mb-3">Journal Articles</div>
-                    <p>Zhou, N., <b>Nguyen, H.</b>, Fischer, C., Richardson, D., &amp; Warschauer, M. (in press). Hybrid professional development program to promote high school teachers’ self-efficacy in computer science classroom. ACM Transactions on Computing Education.</p>
-                    <p><b>Nguyen, H.</b>, Wu, L., Fischer, C., Washington, G., &amp; Warschauer, M. (2020). Increasing success in college: Examining the impact of a project-based introductory engineering course. Journal of Engineering Education. <a href="https://doi.org/10.1002/jee.20319" target="_blank">https://doi.org/10.1002/jee.20319</a></p>
-                    <p>Jacob, S., <b>Nguyen, H.</b>, Tofel-Grehl, C., Richardson, D., &amp; Warschauer, M. (2018).
-                      Teaching computational thinking to English learners. NYS TESOL Journal, 5(2), 12-24. <a href="https://par.nsf.gov/servlets/purl/10073683" target="_blank">pdf</a></p>
+                        <div class="column2 noticing">
+                          <p>Zhou, N., <b>Nguyen, H.</b>, Fischer, C., Richardson, D., &amp; Warschauer, M. (in press). Hybrid professional development program to promote high school teachers’ self-efficacy in computer science classroom. ACM Transactions on Computing Education.</p>
+                        </div>
+                        <div class="column2 STEMSuccess">
+                          <p><b>Nguyen, H.</b>, Wu, L., Fischer, C., Washington, G., &amp; Warschauer, M. (2020). Increasing success in college: Examining the impact of a project-based introductory engineering course. Journal of Engineering Education. <a href="https://doi.org/10.1002/jee.20319" target="_blank">https://doi.org/10.1002/jee.20319</a></p>
+                        </div>
+                        <div class="column2 STEMSuccess">
+                          <p>Jacob, S., <b>Nguyen, H.</b>, Tofel-Grehl, C., Richardson, D., &amp; Warschauer, M. (2018).
+                            Teaching computational thinking to English learners. NYS TESOL Journal, 5(2), 12-24. <a href="https://par.nsf.gov/servlets/purl/10073683" target="_blank">pdf</a></p>
+                        </div>
                     <div class="subheading mb-3">Peer-Reviewed Proceedings</div>
-                    <p><b>Nguyen, H.</b>, Ahn, J., Young, W., &amp; Campos, F. (in press). Where's the Learning in Education Crowdsourcing? In <i>Proceedings of the Seventh (2020) Annual ACM Conference on Learning@ Scale</i>. <a href="https://doi.org/10.1145/3386527.3406734" target="_blank">https://doi.org/10.1145/3386527.3406734</a></p>
-                    <p><b>Nguyen, H.</b>, Wu, L., Washington, G., Lim, K.Y., &amp; Fischer, C. (in press). Collaboration patterns and design practices in first-year project-based engineering.
-                      <i>Proceedings of the 2020 American Society for Engineering Education Annual Conference & Exposition.</i></p>
-                    <p><b>Nguyen, H.</b>, Lim, K.Y., Wu, L. Fischer, C., &amp; Warschauer, M. (in press). “I thought we said”: Perceived peer support, discourse cohesion, and regulation in engineering design.
-                      <i>14th International Conference of the Learning Sciences: Interdisciplinarity of the Learning Sciences, ICLS 2020.</i>
-                      International Society of the Learning Sciences (ISLS). <a href="pubs/2020/Nguyen et al_2020_ICLS_ENGRCollab.pdf" target="_blank">pdf</a></p>
-                    <p><b>Nguyen, H.</b>, Garcia, L., Jacob, S., Richardson, D., &amp; Warschauer, M. (in press). Reflection as formative assessment of computational thinking in elementary grades.
-                      <i>14th International Conference of the Learning Sciences: Interdisciplinarity of the Learning Sciences, ICLS 2020.</i>
-                      International Society of the Learning Sciences (ISLS). <a href="pubs/2020/Nguyen et al_2020_ICLS_Flipgriddesign.pdf" target="_blank">pdf</a></p>
+                      <div class="column2 humanComputation">
+                        <p><b>Nguyen, H.</b>, Ahn, J., Young, W., &amp; Campos, F. (2020). Where's the Learning in Education Crowdsourcing? In <i>Proceedings of the Seventh (2020) Annual ACM Conference on Learning@ Scale</i>. <a href="https://doi.org/10.1145/3386527.3406734" target="_blank">https://doi.org/10.1145/3386527.3406734</a></p>
+                      </div>
+                      <div class="column2 dataviz formative">
+                        <p><b>Nguyen, H.</b>, Wu, L., Washington, G., Lim, K.Y., &amp; Fischer, C. (2020). Collaboration patterns and design practices in first-year project-based engineering.
+                          <i>Proceedings of the 2020 American Society for Engineering Education Annual Conference & Exposition.</i> <a href="https://peer.asee.org/34298" target="_blank">https://peer.asee.org/34298</a></p>
+                      </div>
+                      <div class="column2 dataviz formative">
+                        <p><b>Nguyen, H.</b>, Lim, K.Y., Wu, L. Fischer, C., &amp; Warschauer, M. (2020). “I thought we said”: Perceived peer support, discourse cohesion, and regulation in engineering design.
+                          <i>14th International Conference of the Learning Sciences: Interdisciplinarity of the Learning Sciences, ICLS 2020.</i>
+                          International Society of the Learning Sciences (ISLS). <a href="pubs/2020/Nguyen et al_2020_ICLS_ENGRCollab.pdf" target="_blank">pdf</a></p>
+                      </div>
+                      <div class="column2 formative noticing">
+                        <p><b>Nguyen, H.</b>, Garcia, L., Jacob, S., Richardson, D., &amp; Warschauer, M. (2020). Reflection as formative assessment of computational thinking in elementary grades.
+                          <i>14th International Conference of the Learning Sciences: Interdisciplinarity of the Learning Sciences, ICLS 2020.</i>
+                          International Society of the Learning Sciences (ISLS). <a href="pubs/2020/Nguyen et al_2020_ICLS_Flipgriddesign.pdf" target="_blank">pdf</a></p>
+                     </div>
+                     <div class="column2 formative noticing coDesign">
                     <p><b>Nguyen, H.</b>, Garcia, L., Jacob, S., Richardson, D., &amp; Warschauer, M. (in press). Elementary teachers' use of video reflections to reinforce computer science language and concepts.
                       <i>Proceedings of the Research on Equity and Sustained Participation in Engineering, Computing, and Technology (RESPECT)</i>, IEEE Computer Society.
                      <a href="pubs/2020/Nguyen et al_2020_RESPECT.pdf" target="_blank">pdf</a></p>
-                    <p>Jacob, S., <b>Nguyen, H.</b>, Garcia, L., Richardson, D., &amp; Warschauer, M. (in press). Teaching computational thinking to multilingual students through inquiry based learning.
-                      <i>Proceedings of the Research on Equity and Sustained Participation in Engineering, Computing, and Technology (RESPECT)</i>, IEEE Computer Society.
-                     <a href="pubs/2020/Jacob et al_2020_RESPECT.pdf" target="_blank">pdf</a></p>
-                     <div class="subheading mb-3">Book Chapters</div>
-                     <p><b>Nguyen, H.</b>, Campos, F., &amp; Ahn, J. (in press). Expanding the Design Space of Data and Action in Education: What Co-designing with Educators Reveal about Current Possibilities and Limitations.
-                       In Bowers, A. (Ed), <i>Reports from the NSF School Data Collaborative Workshop.</i></p>
+                    </div>
+                     <div class="column2 STEMSuccess noticing">
+                       <p>Jacob, S., <b>Nguyen, H.</b>, Garcia, L., Richardson, D., &amp; Warschauer, M. (in press). Teaching computational thinking to multilingual students through inquiry based learning.
+                         <i>Proceedings of the Research on Equity and Sustained Participation in Engineering, Computing, and Technology (RESPECT)</i>, IEEE Computer Society.
+                         <a href="pubs/2020/Jacob et al_2020_RESPECT.pdf" target="_blank">pdf</a></p>
+                    </div>
+
+                  <div class="subheading mb-3">Book Chapters</div>
+                    <div class="column2 dataviz formative coDesign">
+                      <p><b>Nguyen, H.</b>, Campos, F., &amp; Ahn, J. (in press). Expanding the Design Space of Data and Action in Education: What Co-designing with Educators Reveal about Current Possibilities and Limitations.
+                        In Bowers, A. (Ed), <i>Reports from the NSF School Data Collaborative Workshop.</i></p>
+                    </div>
+
                     <div class="subheading mb-3">Selected Presentations</div>
                     <p>2020</p>
-                    <p><b>Nguyen, H.</b>, Santagata, R., Schmidt, D., &amp; Warschauer, M. (2020, November). Crystal Code: Examining the Impact of Computational Modeling on Scientific Systems Thinking. Paper presented at the International Society for Technology in Education (ISTE) Conference. Anaheim, CA.</p>
-                    <p><b>Nguyen, H.</b> (2020, April). In or Out of Sync: Funding in Early Childhood through Text Analytics. Paper presented at the AERA Satellite Conference on Educational Data Science, Stanford, CA. <b>Best Paper Nominee</b></p>
-                    <p><b>Nguyen, H.</b>, Santagata, R. &amp; Warschauer, M. (2020, April). Co-Design Dynamics in Community Science Education: Teachers, Researchers, and Community Partners [Roundtable Session]. AERA Annual Meeting San Francisco, CA. http://tinyurl.com/s83uq8f (Conference Canceled)</p>
-                    <p>Fischer, C., <b>Nguyen, H.</b>, Feng, Y., Fiorini, S., Kalender, Y., Schunn, C. D., Vincent-Ruz, P., Whitcomb, K., Witherspoon, E. & Warschauer, M. (2020, April) Advanced Placement Course Credit and Undergraduate Student Success in STEM Gateway Courses [Paper Session]. AERA Annual Meeting San Francisco, CA. http://tinyurl.com/stgybzf (Conference Canceled)</p>
-                    <p><b>Nguyen, H.</b> (2020, April) Data-Sharing Routines in a Research-Practice Partnership [Structured Poster Session]. AERA Annual Meeting San Francisco, CA. http://tinyurl.com/yyrgjxd9 (Conference Canceled)</p>
+                    <div class="column2 STEMSuccess">
+                      <p><b>Nguyen, H.</b>, Santagata, R., Schmidt, D., &amp; Warschauer, M. (2020, November). Crystal Code: Examining the Impact of Computational Modeling on Scientific Systems Thinking. Paper presented at the International Society for Technology in Education (ISTE) Conference. Anaheim, CA.</p>
+                    </div>
+                    <div class="column2 humanComputation">
+                      <p><b>Nguyen, H.</b> (2020, April). In or Out of Sync: Funding in Early Childhood through Text Analytics. Paper presented at the AERA Satellite Conference on Educational Data Science, Stanford, CA. <b>Best Paper Nominee</b></p>
+                    </div>
+                    <div class="column2 coDesign">
+                      <p><b>Nguyen, H.</b>, Santagata, R. &amp; Warschauer, M. (2020, April). Co-Design Dynamics in Community Science Education: Teachers, Researchers, and Community Partners [Roundtable Session]. AERA Annual Meeting San Francisco, CA. http://tinyurl.com/s83uq8f (Conference Canceled)</p>
+                    </div>
+                    <div class="column2 STEMSuccess">
+                      <p>Fischer, C., <b>Nguyen, H.</b>, Feng, Y., Fiorini, S., Kalender, Y., Schunn, C. D., Vincent-Ruz, P., Whitcomb, K., Witherspoon, E. & Warschauer, M. (2020, April) Advanced Placement Course Credit and Undergraduate Student Success in STEM Gateway Courses [Paper Session]. AERA Annual Meeting San Francisco, CA. http://tinyurl.com/stgybzf (Conference Canceled)</p>
+                    </div>
+                    <div class="column2 coDesign">
+                      <p><b>Nguyen, H.</b> (2020, April) Data-Sharing Routines in a Research-Practice Partnership [Structured Poster Session]. AERA Annual Meeting San Francisco, CA. http://tinyurl.com/yyrgjxd9 (Conference Canceled)</p>
+                    </div>
                     <p>2019</p>
-                    <p>Jacob, S., <b>Nguyen, H.</b>, Garcia, L., Richardson, D., &amp; Warschauer, M. (2019, October). Design of Computational Thinking Curriculum for Multilingual Learners. Paper presented at Connected Learning Summit. Irvine, CA.</p>
-                    <p><b>Nguyen, H.</b> (2019, September). Social Discourse to Promote Computational Thinking. Paper presented at the Learning Sciences Graduate Student Conference. Evanston, IL.</p>
-                    <p><b>Nguyen, H.</b> (2019, April). Autonomous, but Together: Elementary Teachers’ Self-Efficacy and Autonomy. Paper presented at the Annual American Educational Research Association. Toronto, Canada.</p>
-                    <p>Jacob, S., <b>Nguyen, H.</b>, Richardson, D., &amp; Warschauer, M. (2019, February). Developing a Computational Thinking Curriculum for Multilingual Students: An Experience Report. Poster presented at Research on Equity and Sustained Participation in Computing, Engineering, &amp; Technology. Minneapolis, MN. <a>doi.org/10.1109/RESPECT46404.2019.8985944</a></p>
+                    <div class="column2 STEMSuccess">
+                      <p>Jacob, S., <b>Nguyen, H.</b>, Garcia, L., Richardson, D., &amp; Warschauer, M. (2019, October). Design of Computational Thinking Curriculum for Multilingual Learners. Paper presented at Connected Learning Summit. Irvine, CA.</p>
+                    </div>
+                    <div class="column2 formative">
+                      <p><b>Nguyen, H.</b> (2019, September). Social Discourse to Promote Computational Thinking. Paper presented at the Learning Sciences Graduate Student Conference. Evanston, IL.</p>
+                    </div>
+                    <div class="column2 noticing">
+                      <p><b>Nguyen, H.</b> (2019, April). Autonomous, but Together: Elementary Teachers’ Self-Efficacy and Autonomy. Paper presented at the Annual American Educational Research Association. Toronto, Canada.</p>
+                    </div>
+                    <div class="column2 STEMSuccess">
+                      <p>Jacob, S., <b>Nguyen, H.</b>, Richardson, D., &amp; Warschauer, M. (2019, February). Developing a Computational Thinking Curriculum for Multilingual Students: An Experience Report. Poster presented at Research on Equity and Sustained Participation in Computing, Engineering, &amp; Technology. Minneapolis, MN. <a>doi.org/10.1109/RESPECT46404.2019.8985944</a></p>
+                    </div>
                     <div class="subheading mb-3">Manuscripts Under Review</div>
                     <!--p>Fischer, C., <b>Nguyen, H.</b>, Feng, Y., Fiorini, S., Kalender, Y., McKay, T., ..., &amp; Warschauer, M. Advanced Placement course credit and undergraduate student success in STEM gateway courses.</p-->
                     <p><b>Nguyen, H.</b>, Lim, K.Y., Fischer, C., Wu, L., Washington, G., &amp; Warschauer, M. Peer support and temporality in regulated learning.</p>
@@ -307,8 +364,10 @@
         <!-- Plugin JavaScript -->
         <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-        <!-- Custom scripts for this template -->
+        <!-- Main scripts -->
         <script src="js/resume.min.js"></script>
+        <script src="js/filter.js"></script>
+
 
     </body>
 

@@ -43,6 +43,35 @@
     blink-caret .5s step-end infinite;
 }
 
+/* Style the buttons */
+.column2 {
+  float: left;
+  width: 100%;
+  display: none; /* Hide columns by default */
+}
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #bd5d38;
+   color: white;
+}
+
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
