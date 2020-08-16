@@ -63,13 +63,14 @@
 
 /* Add a grey background color on mouse-over */
 .btn:hover {
-  background-color: #ddd;
+  background-color: #bd5d38;
 }
 
 /* Add a dark background color to the active button */
 .btn.active {
-  background-color: #bd5d38;
+   background-color: #bd5d38;
    color: white;
+   text-decoration: underline;
 }
 
 /* The typing effect */
