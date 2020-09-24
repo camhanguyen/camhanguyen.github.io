@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                <meta name="description" content="">
+                    <meta name="author" content="">
+
+                        <title>Portfolio: Lilo</title>
+
+                        <!-- Bootstrap core CSS -->
+                        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+                            <!-- Fonts -->
+                            <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+                                <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+                                    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+                                        <!-- Styles for this template -->
+                                        <link href="css/resume.min.css" rel="stylesheet">
+
+    </head>
+
+    <body id="page-top">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Ha Nguyen</span>
+                <span class="d-none d-lg-block">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+                        </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#objectives">Objectives</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#role">My Role</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#insight">Insights</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="index.html"><h3 style="color:white;">&larr;</h3></a>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid p-0">
+          <!--Objective-->
+          <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="objectives">
+              <div class="w-100">
+                <p>Advisor: Dr. June Ahn</p>
+                <p><i><a href="https://www.lilobot.io" target="_blank">Lilobot</a> represents a partnership between UC Irvine, New York University, and CUNY Graduate Center</i></p>
+
+                <h2>Objectives</h2>
+                <p>Our goal in designing Lilo, a college advising chatbot is to increase enrollment in college for high school graduates.
+                  Our question is: <b>How can we design the app interface and interaction </b>
+                  to prevent “summer melt”, where students who were already accepted to college decide not to enroll?</p>
+                <p>Through three rounds of pilot studies in Summers 2017, 2019, and 2020, the team gathered several data sources to inform our design that cater to students' social interactions and college identity.
+                  In particular, the team collected student perceptions of their college identity, interactions with human advisors in an online chat interface, app interactions for participant thought processes,
+                   and in-depth user interviews to create user profiles.</p>
+                <p>Analyses of these data sources helped us identify key features for improvement:</p>
+                <img style="width:500px;" src="img/lilo-questions.png">
+              </div>
+          </section>
+          <!--End Objective-->
+          <hr class="m-0">
+
+          <!--My Roles-->
+          <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="role">
+              <div class="w-100">
+                <h2>My Roles</h2>
+                <p>•	Lead the UX/UI development of a mobile chatbot interface to increase enrollment in college for high school graduates.</p>
+                <p>•	Develop natural language processing pipelines to model conversation topics, predict FAQ intents, and detect sentiment to match students with relevant mentors.</p>
+                <p>•	Conduct user experience research: protocol development, data collection, and analyses of qualitative (user diary, interaction log, interview, persona mapping) and quantitative measures (survey).</p>
+              </div>
+          </section>
+          <!--End Roles-->
+          <hr class="m-0">
+
+          <!--Insights-->
+          <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="insight">
+              <div class="w-100">
+                <h2>Insights</h2>
+                <img class="img-fluid" src="img/lilo-teaser.png">
+                <small>Example conversational prompts and the dashboard interface to facilitate student reflection on their college identity</small>
+                <br></br>
+
+                <h3>Designing a chatbot to support social-emotional interactions</h3>
+                <p>Prior work on college advising chatbots have focused on sending students informational nudges. Meanwhile, chatbots to support mental well-being often provide space for user reflection.</p>
+                <p>A design shift in Lilo is to combine these features, to provide students space to explore their social well-being in regards to college-going experiences.
+                  We worked with the interaction designer to create regular check-ins (surveys and conversational prompts) for students
+                  to reflect on multiple aspects of college-going experience.</p>
+                <p>Feedback from our latest pilot, where we interviewed participants about Lilo's different features, suggests that the designed prompts:
+                  • Are comprehensive of college-going experience
+                  • Are seemlessly embedded in the interactions
+                  • Provide space for self-introspection</p>
+
+                  <h3>Automating informational search</h3>
+                  <p>We observed from our pilot studies that students had shared concerns about several topics, such as tuition deposit, housing, or class registration.</p>
+                  <p>To resolve these common questions in real time, we leveraged natural language processing to create a FAQ pipeline. We scraped the university sites and
+                    used pre-trained language models (such as GPT-2)
+                    to (1) automatically identify the intent in user questions and (2) reply with the appropriate response.
+                    This development helps to address student concerns in real time.</p>
+
+                <h3>Supporting connection between students and advisors</h3>
+                <p>Another design challenge, however, is that automated FAQs and open-ended responses may not satisfactorily understand and respond to complex social emotional needs.</p>
+                <p>Thus, we also engaged human advisors, who may have shared experiences with students around a certain topic.</p>
+                <p>To match students with advisors, we created a topic modeling and sentiment analysis feature,
+                  to automatically detect the topics and emotions in student text. This information will also provide advisors with the contexts for students' textual request.</p>
+
+                <img style="width:600px;" src="img/lilo-sent.png">
+                <br>
+                <small>Here, Lilo correctly identifies the sentiment in student text to inform the advisors. The chatbot also returns the right intent (tuition) for student questions.</small>
+                <br></br>
+
+                <h3>Uncovering nuances in user profiles</h3>
+                <p>We are working to create user personas from triangulating multiple data sources.
+                This persona mapping helps us to refine our interaction designs to adapt to varying user needs.</p>
+                <img style="width:600px;" src="img/lilo-persona.png">
+                <br>
+                <small>Example persona: for students like Bailey, we would strive for a more balanced experience
+                between task and conversation-oriented interactions.</small>
+                <br></br>
+              </div>
+          </section>
+          <!--Insights-->
+
+          <!-- Bootstrap core JavaScript -->
+          <script src="vendor/jquery/jquery.min.js"></script>
+          <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+          <!-- Plugin JavaScript -->
+          <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+          <!-- Main scripts -->
+          <script src="js/resume.min.js"></script>
+          <script src="js/filter.js"></script>
+
+
+          </body>
+
+        </html>
