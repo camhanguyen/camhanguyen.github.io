@@ -44,7 +44,10 @@
                         <a class="nav-link js-scroll-trigger" href="#role">My Role</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#insight">Insights</a>
+                        <a class="nav-link js-scroll-trigger" href="#design">Design Inspiration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#insight">Research Insights</a>
                     </li>
                     <li class="nav-item">
                       <a href="index.html"><h3 style="color:white;">&larr;</h3></a>
@@ -58,14 +61,20 @@
               <div class="w-100">
                 <p>Advisor: Dr. June Ahn</p>
                 <p><i><a href="https://www.lilobot.io" target="_blank">Lilobot</a> represents a partnership between UC Irvine, New York University, and CUNY Graduate Center</i></p>
-
+                <img style="width:1000px;" src="img/lilo-overview.png">
+                <br></br>
                 <h2>Objectives</h2>
-                <p>Our goal in designing Lilo, a college advising chatbot is to increase enrollment in college for high school graduates.
+                <p>Our goal in designing Lilo is to increase enrollment in college for high school graduates.
                   Our question is: <b>How can we design the app interface and interaction </b>
                   to prevent “summer melt”, where students who were already accepted to college decide not to enroll?</p>
                 <p>Through three rounds of pilot studies in Summers 2017, 2019, and 2020, the team gathered several data sources to inform our design that cater to students' social interactions and college identity.
-                  In particular, the team collected student perceptions of their college identity, interactions with human advisors in an online chat interface, app interactions for participant thought processes,
-                   and in-depth user interviews to create user profiles.</p>
+                  In particular, the team developed and collected:
+                  <ul>
+                  <li>Surveys of student college identity</li>
+                  <li>Logs of interactions with human advisors in an online chat interface</li>
+                  <li> Logs of app interactions in a user study</li>
+                  <li>In-depth user interviews to create user profiles.</li>
+                </ul>
                 <p>Analyses of these data sources helped us identify key features for improvement:</p>
                 <img style="width:500px;" src="img/lilo-questions.png">
               </div>
@@ -85,6 +94,15 @@
           <!--End Roles-->
           <hr class="m-0">
 
+          <!--Design Inspiration-->
+          <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="design">
+            <div class="w-100">
+              <h2>Design Inspiration</h2>
+          <img style="width:1000px;" src="img/lilo-mood.png">
+        </div>
+      </section>
+      <!--Design Inspiration-->
+
           <!--Insights-->
           <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="insight">
               <div class="w-100">
@@ -93,22 +111,18 @@
                 <small>Example conversational prompts and the dashboard interface to facilitate student reflection on their college identity</small>
                 <br></br>
 
-                <h3>Designing a chatbot to support social-emotional interactions</h3>
-                <p>Prior work on college advising chatbots have focused on sending students informational nudges. Meanwhile, chatbots to support mental well-being often provide space for user reflection.</p>
-                <p>A design shift in Lilo is to combine these features, to provide students space to explore their social well-being in regards to college-going experiences.
-                  We worked with the interaction designer to create regular check-ins (surveys and conversational prompts) for students
-                  to reflect on multiple aspects of college-going experience.</p>
-                <p>Feedback from our latest pilot, where we interviewed participants about Lilo's different features, suggests that the designed prompts:
-                  • Are comprehensive of college-going experience
-                  • Are seemlessly embedded in the interactions
-                  • Provide space for self-introspection</p>
-
-                  <h3>Automating informational search</h3>
-                  <p>We observed from our pilot studies that students had shared concerns about several topics, such as tuition deposit, housing, or class registration.</p>
-                  <p>To resolve these common questions in real time, we leveraged natural language processing to create a FAQ pipeline. We scraped the university sites and
-                    used pre-trained language models (such as GPT-2)
-                    to (1) automatically identify the intent in user questions and (2) reply with the appropriate response.
-                    This development helps to address student concerns in real time.</p>
+                    <h3>Designing a chatbot to support social-emotional interactions</h3>
+                    <p>Prior work on college advising chatbots have focused on sending students informational nudges. Meanwhile, chatbots to support mental well-being often provide space for user reflection.</p>
+                    <p>A design shift in Lilo is to combine these features, to provide students space to explore their social well-being in regards to college-going experiences.
+                      We worked with the interaction designer to create regular check-ins (surveys and conversational prompts) for students
+                      to reflect on multiple aspects of college-going experience.</p>
+                    <p>Feedback from our latest pilot, where we interviewed participants about Lilo's different features, suggests that the designed prompts:
+                      <ul>
+                      <li>Are comprehensive of college-going experience</li>
+                      <li>Are seemlessly embedded in the interactions</li>
+                      <li>Provide space for self-introspection</li>
+                    </ul>
+                    <br></br>
 
                 <h3>Supporting connection between students and advisors</h3>
                 <p>Another design challenge, however, is that automated FAQs and open-ended responses may not satisfactorily understand and respond to complex social emotional needs.</p>
@@ -120,6 +134,17 @@
                 <br>
                 <small>Here, Lilo correctly identifies the sentiment in student text to inform the advisors. The chatbot also returns the right intent (tuition) for student questions.</small>
                 <br></br>
+
+                <h3>Automating informational search</h3>
+                <p>We observed from our pilot studies that students had shared concerns about several topics, such as tuition deposit, housing, or class registration.</p>
+                <p>To resolve these common questions in real time, we leveraged natural language processing to create a FAQ pipeline. We scraped the university sites and
+                  used pre-trained language models (such as GPT-2) to:
+                  <ul>
+                    <li>Automatically identify the intent in user questions</li>
+                    <li>Reply with the appropriate response</li></ul>
+                  This development helps to address student concerns in real time.</p>
+
+                  <br></br>
 
                 <h3>Uncovering nuances in user profiles</h3>
                 <p>We are working to create user personas from triangulating multiple data sources.
